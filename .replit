@@ -1,0 +1,59 @@
+modules = ["nodejs-20", "web", "bash"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["chromium", "xorg.libX11", "xorg.libXcomposite", "xorg.libXcursor", "xorg.libXdamage", "xorg.libXext", "xorg.libXi", "xorg.libXrandr", "xorg.libXrender", "xorg.libXtst", "xorg.libxcb", "nss", "mesa", "alsa-lib", "cups", "pango", "at-spi2-atk", "libdrm", "libxkbcommon", "tesseract", "tor"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Dashboard"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Tor Service"
+
+[[workflows.workflow]]
+name = "Dashboard"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node server/index.js"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Tor Service"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "mkdir -p /tmp/tor && tor --SocksPort 9050 --SocksPort 9052 --SocksPort 9054 --SocksPort 9056 --SocksPort 9058 --SocksPort 9060 --SocksPort 9062 --SocksPort 9064 --SocksPort 9066 --SocksPort 9068 --ControlPort 9051 --ControlPort 9053 --ControlPort 9055 --ControlPort 9057 --ControlPort 9059 --ControlPort 9061 --ControlPort 9063 --ControlPort 9065 --ControlPort 9067 --ControlPort 9069 --DataDirectory /tmp/tor --Log \"notice stdout\""
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["node", "server/index.js"]
+
+[userenv]
+
+[userenv.shared]
+CHROME_PATH = "/nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium"

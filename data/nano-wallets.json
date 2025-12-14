@@ -1,0 +1,17 @@
+{
+  "Vick": {
+    "name": "Vick",
+    "type": "hd",
+    "seed": "313bda74281ce5279b1cc22b30d7cd9292ebdc44fcc3a1683fca77cf01b1d0f461a2651c83cfb45190587348908e7da13cffd65d40afd2dd0af33baea2e4d67d",
+    "mnemonic": "forget skin spring jazz goose wrong nothing local success slide dance can aisle photo burden bounce river write drip wisdom rookie sign praise guide",
+    "accounts": [
+      {
+        "index": 0,
+        "address": "nano_3cajiim3oezixxqt83d3iczkpwok8xfaim6uzjb9sb36xbujxnkgpkc4oc4s",
+        "publicKey": "a91184261ab3f0ef6fa3056182bf2b72b2375a884c9bfc527ca424ea771ed24e",
+        "privateKey": "924604c98402ae7dfe7bd01a4fde0f86702e264a6e09814b2c5d9e35a36436c4"
+      }
+    ],
+    "createdAt": "2025-12-12T11:35:29.983Z"
+  }
+}

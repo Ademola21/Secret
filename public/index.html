@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppeteer Real Browser - Automation Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo">🤖</div>
+                <div class="title-section">
+                    <h1>Puppeteer Real Browser</h1>
+                    <p class="subtitle">Automation Control Dashboard</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="status-indicator" id="connectionStatus">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Connecting...</span>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-section="automation">🤖 Automation</button>
+            <button class="nav-tab" data-section="cryptovault">⛓️ CryptoVault</button>
+            <button class="nav-tab" data-section="faucetsentry">🎯 FaucetSentry</button>
+        </nav>
+
+        <main class="main">
+            <div id="automation-section" class="section-content active">
+                <div class="grid">
+                    <section class="card tasks-section">
+                        <div class="card-header">
+                            <h2>🎯 Automation Tasks</h2>
+                            <button class="btn btn-danger" id="stopAllBtn" disabled>Stop All</button>
+                        </div>
+                        <div class="card-content">
+                            <div class="task-grid" id="taskGrid"></div>
+                            
+                            <div class="custom-task">
+                                <h3>🌐 Custom Navigation</h3>
+                                <div class="input-group">
+                                    <input type="text" id="customUrl" placeholder="https://example.com" />
+                                    <button class="btn btn-primary" id="customNavBtn">Navigate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card active-section">
+                        <div class="card-header">
+                            <h2>⚡ Active Tasks</h2>
+                            <span class="badge" id="activeCount">0</span>
+                        </div>
+                        <div class="card-content">
+                            <div id="activeTasks" class="active-tasks">
+                                <p class="empty-state">No active tasks</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card screenshot-section">
+                        <div class="card-header">
+                            <h2>📸 Latest Screenshot</h2>
+                        </div>
+                        <div class="card-content">
+                            <div id="screenshotContainer" class="screenshot-container">
+                                <p class="empty-state">No screenshots yet</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card logs-section">
+                        <div class="card-header">
+                            <h2>📋 Live Logs</h2>
+                            <button class="btn btn-secondary" id="clearLogs">Clear</button>
+                        </div>
+                        <div class="card-content">
+                            <div id="logsContainer" class="logs-container"></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div id="cryptovault-section" class="section-content">
+                <div class="network-status-bar">
+                    <div class="network-status" id="networkStatus">
+                        <span class="network-dot"></span>
+                        <span class="network-text">Checking network...</span>
+                    </div>
+                </div>
+                <div class="crypto-grid">
+                    <section class="card wallet-management">
+                        <div class="card-header">
+                            <h2>💎 Nano Wallets</h2>
+                            <button class="btn btn-primary" id="createWalletBtn">+ Create Wallet</button>
+                        </div>
+                        <div class="card-content">
+                            <div id="walletList" class="wallet-list">
+                                <p class="empty-state">No wallets created yet</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card wallet-details">
+                        <div class="card-header">
+                            <h2>📊 Wallet Details</h2>
+                            <div class="header-actions">
+                                <button class="btn btn-secondary btn-sm" id="backupSeedBtn" disabled>Backup</button>
+                                <button class="btn btn-secondary" id="syncWalletBtn" disabled>Sync</button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div id="walletDetails" class="wallet-details-content">
+                                <p class="empty-state">Select a wallet to view details</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card send-receive">
+                        <div class="card-header">
+                            <h2>💸 Send & Receive</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="tx-tabs">
+                                <button class="tx-tab active" data-tx="send">Send</button>
+                                <button class="tx-tab" data-tx="receive">Receive</button>
+                            </div>
+                            
+                            <div id="sendPanel" class="tx-panel active">
+                                <div class="form-group">
+                                    <label>Recipient Address <button type="button" class="link-btn" id="openAddressBookBtn">Address Book</button></label>
+                                    <input type="text" id="sendToAddress" placeholder="nano_..." class="full-input" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Amount (NANO)</label>
+                                    <div class="amount-input-wrapper">
+                                        <input type="number" id="sendAmount" placeholder="0.00" step="0.000001" class="full-input" />
+                                        <button type="button" class="send-all-btn" id="sendAllBtn">MAX</button>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary full-btn" id="sendNanoBtn" disabled>Send NANO</button>
+                            </div>
+                            
+                            <div id="receivePanel" class="tx-panel">
+                                <div id="pendingBlocks" class="pending-blocks">
+                                    <p class="empty-state">No pending transactions</p>
+                                </div>
+                                <button class="btn btn-success full-btn" id="receiveAllBtn" disabled>Receive All</button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card nano-logs">
+                        <div class="card-header">
+                            <h2>📜 Nano Activity</h2>
+                            <button class="btn btn-secondary" id="clearNanoLogs">Clear</button>
+                        </div>
+                        <div class="card-content">
+                            <div id="nanoLogsContainer" class="logs-container"></div>
+                        </div>
+                    </section>
+
+                    <section class="card gpu-worker">
+                        <div class="card-header">
+                            <h2>⚡ GPU PoW Worker</h2>
+                        </div>
+                        <div class="card-content">
+                            <p class="helper-text">Connect your GPU Nano Worker for faster proof-of-work generation</p>
+                            <div class="input-group">
+                                <input type="text" id="gpuWorkerUrl" placeholder="http://your-gpu-worker:7076" />
+                                <button class="btn btn-primary" id="setGpuWorkerBtn">Set Worker</button>
+                                <button class="btn btn-secondary" id="clearGpuWorkerBtn">Clear</button>
+                            </div>
+                            <div id="gpuWorkerStatus" class="worker-status">
+                                <span class="status-indicator-small inactive"></span>
+                                <span>Using public RPC for PoW</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card rpc-test">
+                        <div class="card-header">
+                            <h2>🔌 RPC Status</h2>
+                            <button class="btn btn-secondary" id="testRpcBtn">Test All RPCs</button>
+                        </div>
+                        <div class="card-content">
+                            <div id="rpcTestResults" class="rpc-results">
+                                <p class="helper-text">Click "Test All RPCs" to check connectivity</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div id="faucetsentry-section" class="section-content">
+                <div class="faucet-grid">
+                    <section class="card faucet-config">
+                        <div class="card-header">
+                            <h2>⚙️ Configuration</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="config-row">
+                                <div class="config-label">🏦 Bank Wallet</div>
+                                <div class="config-value">
+                                    <select id="faucetBankWallet" class="full-input">
+                                        <option value="">-- Select Bank Wallet --</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="config-row" id="bankBalanceRow" style="display:none;">
+                                <div class="config-label">Balance</div>
+                                <div class="config-value">
+                                    <span id="bankWalletBalance">0.000000</span> NANO
+                                    <span id="bankBalanceStatus" class="balance-status"></span>
+                                </div>
+                            </div>
+                            <div class="config-row">
+                                <div class="config-label">🔗 Connection Type</div>
+                                <div class="config-value">
+                                    <div class="radio-group">
+                                        <label class="radio-label">
+                                            <input type="radio" name="connectionType" value="direct" checked>
+                                            <span>Direct</span>
+                                        </label>
+                                        <label class="radio-label">
+                                            <input type="radio" name="connectionType" value="proxy">
+                                            <span>Proxy</span>
+                                        </label>
+                                        <label class="radio-label">
+                                            <input type="radio" name="connectionType" value="tor">
+                                            <span>Tor</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="config-row" id="proxyUrlRow" style="display:none;">
+                                <div class="config-label">Proxy Settings</div>
+                                <div class="config-value">
+                                    <div class="proxy-config-grid">
+                                        <div class="form-group">
+                                            <label>Host</label>
+                                            <input type="text" id="proxyHost" placeholder="proxy.example.com" class="full-input" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Port</label>
+                                            <input type="text" id="proxyPort" placeholder="8080" class="full-input" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Username (optional)</label>
+                                            <input type="text" id="proxyUser" placeholder="username" class="full-input" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password (optional)</label>
+                                            <input type="password" id="proxyPass" placeholder="password" class="full-input" />
+                                        </div>
+                                    </div>
+                                    <input type="hidden" id="proxyUrl" />
+                                </div>
+                            </div>
+                            <div class="config-row">
+                                <div class="config-label">⚡ GPU Worker</div>
+                                <div class="config-value">
+                                    <span id="faucetGpuStatus" class="gpu-status">Using public RPC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card faucet-control">
+                        <div class="card-header">
+                            <h2>🎮 Control Panel</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="control-buttons">
+                                <button class="btn btn-success btn-lg" id="startClaimBtn">▶️ Start Claim</button>
+                                <button class="btn btn-warning btn-lg" id="pauseClaimBtn" disabled>⏸️ Pause</button>
+                                <button class="btn btn-danger btn-lg" id="stopClaimBtn" disabled>■ Stop</button>
+                            </div>
+                            
+                            <div class="multi-instance-section">
+                                <h4>Multi-Instance Mode</h4>
+                                <div class="instance-controls">
+                                    <div class="instance-slider">
+                                        <label>Instances: <span id="instanceCountDisplay">1</span></label>
+                                        <input type="range" id="instanceCount" min="1" max="10" value="1" />
+                                    </div>
+                                    <div class="instance-buttons">
+                                        <button class="btn btn-primary" id="startMultiBtn">Start Multi</button>
+                                        <button class="btn btn-danger" id="stopMultiBtn" disabled>Stop All</button>
+                                    </div>
+                                </div>
+                                <div id="instanceGrid" class="instance-grid"></div>
+                                <div class="multi-stats" id="multiStats" style="display:none;">
+                                    <span>Active: <strong id="multiActiveCount">0</strong></span>
+                                    <span>Total Claims: <strong id="multiTotalClaims">0</strong></span>
+                                    <span>Total Rewards: <strong id="multiTotalRewards">0.000000</strong> NANO</span>
+                                </div>
+                            </div>
+                            <div class="session-info">
+                                <div class="session-row">
+                                    <span class="session-label">Status:</span>
+                                    <span class="session-value" id="faucetSessionStatus">Idle</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="session-label">Temp Wallet:</span>
+                                    <span class="session-value" id="faucetTempWallet">--</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="session-label">Last Donation:</span>
+                                    <span class="session-value" id="faucetLastDonation">--</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="session-label">Last Reward:</span>
+                                    <span class="session-value" id="faucetLastReward">--</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="session-label">Total Claims:</span>
+                                    <span class="session-value" id="faucetTotalClaims">0</span>
+                                </div>
+                                <div class="session-row">
+                                    <span class="session-label">Total Rewards:</span>
+                                    <span class="session-value" id="faucetTotalRewards">0.000000 NANO</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card faucet-screenshot">
+                        <div class="card-header">
+                            <h2>📺 Live View</h2>
+                        </div>
+                        <div class="card-content">
+                            <div id="faucetScreenshotContainer" class="screenshot-container">
+                                <p class="empty-state">Claim session not started</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card faucet-logs">
+                        <div class="card-header">
+                            <h2>📋 Activity Log</h2>
+                            <button class="btn btn-secondary" id="clearFaucetLogs">Clear</button>
+                        </div>
+                        <div class="card-content">
+                            <div id="faucetLogsContainer" class="logs-container"></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Puppeteer Real Browser Enhanced - Bot Detection Bypass & Automation | CryptoVault Blockchain Module | FaucetSentry</p>
+        </footer>
+    </div>
+
+    <div id="createWalletModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create New Wallet</h3>
+                <button class="modal-close" id="closeCreateModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Wallet Name</label>
+                    <input type="text" id="newWalletName" placeholder="My Nano Wallet" class="full-input" />
+                </div>
+                <div class="form-group">
+                    <label>Wallet Type</label>
+                    <select id="newWalletType" class="full-input">
+                        <option value="hd">HD Wallet (BIP39)</option>
+                        <option value="legacy">Legacy Wallet</option>
+                    </select>
+                </div>
+                <div class="wallet-type-info">
+                    <p><strong>HD Wallet:</strong> Modern wallet with 24-word recovery phrase</p>
+                    <p><strong>Legacy:</strong> Traditional Nano wallet format</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancelCreateWallet">Cancel</button>
+                <button class="btn btn-primary" id="confirmCreateWallet">Create Wallet</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="walletCreatedModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Wallet Created Successfully!</h3>
+                <button class="modal-close" id="closeCreatedModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="warning-box">
+                    <strong>IMPORTANT:</strong> Save your recovery phrase securely. You will need it to restore your wallet. Never share it with anyone!
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <div class="copy-field">
+                        <input type="text" id="createdAddress" readonly class="full-input" />
+                        <button class="copy-btn" data-copy="createdAddress">Copy</button>
+                    </div>
+                </div>
+                <div class="form-group" id="mnemonicGroup">
+                    <label>Recovery Phrase (24 words)</label>
+                    <textarea id="createdMnemonic" readonly class="full-input mnemonic-area"></textarea>
+                    <button class="copy-btn full-btn" data-copy="createdMnemonic">Copy Recovery Phrase</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" id="confirmSavedMnemonic">I've Saved My Recovery Phrase</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="deleteWalletModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Delete Wallet</h3>
+                <button class="modal-close" id="closeDeleteModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="warning-box danger">
+                    <strong>WARNING:</strong> This action cannot be undone! Make sure you have backed up your recovery phrase before deleting.
+                </div>
+                <p>Are you sure you want to delete wallet "<span id="deleteWalletName"></span>"?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancelDeleteWallet">Cancel</button>
+                <button class="btn btn-danger" id="confirmDeleteWallet">Delete Wallet</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sendConfirmModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Confirm Transaction</h3>
+                <button class="modal-close" id="closeSendConfirmModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="confirm-details">
+                    <div class="confirm-row">
+                        <span class="confirm-label">To:</span>
+                        <span class="confirm-value" id="confirmToAddress"></span>
+                    </div>
+                    <div class="confirm-row">
+                        <span class="confirm-label">Amount:</span>
+                        <span class="confirm-value confirm-amount" id="confirmAmount"></span>
+                    </div>
+                </div>
+                <div class="warning-box">
+                    Please verify the recipient address carefully. Transactions cannot be reversed.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancelSendConfirm">Cancel</button>
+                <button class="btn btn-primary" id="confirmSendBtn">Confirm Send</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="addressBookModal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3>Address Book</h3>
+                <button class="modal-close" id="closeAddressBookModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="address-book-add">
+                    <input type="text" id="contactName" placeholder="Contact name" class="contact-input" />
+                    <input type="text" id="contactAddress" placeholder="nano_..." class="contact-input" />
+                    <button class="btn btn-primary" id="addContactBtn">Add</button>
+                </div>
+                <div id="contactsList" class="contacts-list">
+                    <p class="empty-state">No saved contacts</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="closeAddressBook">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="backupSeedModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Backup Recovery Phrase</h3>
+                <button class="modal-close" id="closeBackupSeedModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="warning-box">
+                    Enter your wallet password to view the recovery phrase. Never share this with anyone!
+                </div>
+                <div class="form-group">
+                    <label>Wallet Password</label>
+                    <input type="password" id="backupPassword" placeholder="Enter password" class="full-input" />
+                </div>
+                <div id="seedPhraseDisplay" class="seed-phrase-display hidden">
+                    <label>Recovery Phrase</label>
+                    <textarea id="backupSeedPhrase" readonly class="full-input mnemonic-area"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancelBackupSeed">Cancel</button>
+                <button class="btn btn-primary" id="showSeedBtn">Show Seed</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="notificationSound" preload="auto">
+        <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdH2Onp2YjHdtZl1qeoiYpaOZkIN2bGdpdn+QoainopiIe3JtbXR+jZyprKedk4Z7c29xeIOSoamtqZ2ShnxxbW90fo2coaqtqJ2SiH10cHJ3goqYpKqsqZ6UiX13dHR3gYiVoqerqqCWjIF6d3Z4gIeTn6aqqaSblI2Fe3l4eX6EkJyiq6qmnZaOh4B8enp8gIiSnaWpqaWfmJGKg357e3x/hI6ZoaaopaGblY6Ig4B9fH1/hI2Xn6WnpaKemJONiIOAfn1+gISMlZ2jpaShn5qVkIuGg4B+foGEi5ScoKOjoaCblpKNiYWCgICChouSlpygoaGgnpqWko6LiIWDgoOFiY6Tlpqcn5+gnpuYlZKPjImGhISFh4qNkZWYmpucnZ2cm5mXlJKQjo2LioqKi4yOkJKUlpiZmpubnJybmpiXlZOSkI+OjY2NjY6PkJGTlJWXmJmampqampmYl5aVlJOSkZCQkJCQkZGSk5OUlZaWl5eYmJiYmJeXlpaVlZSTk5OSkpKSkpKSk5OTlJSUlZWVlpaWlpaWlpaWlZWVlZSUlJSUlJSUlJSUlJWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZaWlpaWlpaVlZWVlZWVlZWVlZWVlZWWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW" type="audio/wav">
+    </audio>
+
+    <script src="app.js"></script>
+</body>
+</html>

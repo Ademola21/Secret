@@ -1,0 +1,7 @@
+{
+  "bankWalletName": "Faucetboy",
+  "connectionType": "proxy",
+  "proxyUrl": "",
+  "torEnabled": false,
+  "claimInterval": 24
+}

@@ -1,0 +1,1856 @@
+{
+  "automation": [
+    {
+      "id": "f298902b-7b40-45ac-84c1-f331fe2bb5fc",
+      "timestamp": "2025-12-14T10:18:38.560Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "a5049d6d-bca8-41b5-a6cc-fcab166f0fa7",
+      "timestamp": "2025-12-14T10:18:36.901Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "94279cd3-e13e-4103-9cb6-17b8fd52168c",
+      "timestamp": "2025-12-14T10:18:28.888Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "94e628b4-150a-4ece-b132-2767036f8072",
+      "timestamp": "2025-12-14T10:18:26.381Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "0eb747e2-3895-480c-b040-2386b6c5482c",
+      "timestamp": "2025-12-14T10:17:35.636Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "c3122bb4-d97a-4420-b9d5-4d1c39afc68f",
+      "timestamp": "2025-12-14T10:13:29.290Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "d8e4b3aa-509b-4e17-8457-90c172ffe9ea",
+      "timestamp": "2025-12-14T10:06:50.736Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "51418300-5e45-41dd-8bf3-036cbf5f9784",
+      "timestamp": "2025-12-14T10:06:46.972Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "bd4dd8b6-4ed0-4732-ba76-38250fb2c9aa",
+      "timestamp": "2025-12-14T10:03:39.005Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "d23480c4-ce48-4363-b606-892a25d7951f",
+      "timestamp": "2025-12-14T09:59:37.014Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "def0576a-7b6d-4bc9-989d-92859c439b1d",
+      "timestamp": "2025-12-14T09:50:27.685Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5ae29aae-893b-4792-8559-a18a88ae544c",
+      "timestamp": "2025-12-14T09:48:50.500Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "7c4d8e5b-b827-412f-8a2d-3ffcf9b45e94",
+      "timestamp": "2025-12-14T09:48:48.867Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "f4dfeb1a-9b29-4b79-8b20-6c21b2c509a2",
+      "timestamp": "2025-12-14T09:48:41.528Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "2ee4dc4d-e318-4a1b-a028-53486782b356",
+      "timestamp": "2025-12-14T09:48:12.629Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "8f811320-6274-4099-8138-391d89ef29a4",
+      "timestamp": "2025-12-14T09:48:10.966Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "f6a373ba-8cea-404d-8c83-17623802ccf1",
+      "timestamp": "2025-12-14T09:48:02.236Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "b544796d-0982-4464-8e86-653b93044702",
+      "timestamp": "2025-12-14T08:18:00.756Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "791364fa-41a6-451e-a9c5-d54687019b60",
+      "timestamp": "2025-12-14T08:17:59.620Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "b2f94235-2697-4d93-a1b7-ef1261eb9ec7",
+      "timestamp": "2025-12-14T08:17:58.744Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "ec16b532-e559-4efc-9855-333229f26474",
+      "timestamp": "2025-12-14T08:17:57.655Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "134f90f8-3a0c-48f3-8302-79bb52ff0459",
+      "timestamp": "2025-12-14T08:17:13.469Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "338ad3bf-05d0-4f6e-89fd-de100e985223",
+      "timestamp": "2025-12-14T08:17:11.963Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "75f128d3-0ef4-4fb1-8e52-aaba5b40cbb8",
+      "timestamp": "2025-12-14T08:17:05.649Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "354a451b-85ff-4f05-a351-4eb8bcf03e95",
+      "timestamp": "2025-12-14T08:17:02.717Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "3ef878df-4a63-4d17-adc3-ef1b842d9ad1",
+      "timestamp": "2025-12-14T07:55:28.934Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "3b7dccfa-fa34-4d29-b71b-9649787997f0",
+      "timestamp": "2025-12-14T07:55:25.391Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "65f5135c-9401-48dd-9eb5-8ecf0fa962b1",
+      "timestamp": "2025-12-14T07:43:16.986Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "e31a1355-9e1e-4dda-9b25-99926c52c4f9",
+      "timestamp": "2025-12-14T07:42:47.377Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "9762e92f-32cd-4c69-9cb9-771e2bc9a01e",
+      "timestamp": "2025-12-14T07:41:41.022Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "d9b742c8-9a99-4efe-b785-eed4e5432129",
+      "timestamp": "2025-12-14T07:41:39.616Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "2eee1250-ac26-4530-8f80-55104405e97d",
+      "timestamp": "2025-12-14T07:41:37.480Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "aa9674f5-753c-49bb-aa7b-3287ffabe67c",
+      "timestamp": "2025-12-14T07:41:33.096Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "dac4f498-775f-4af1-8c9f-7fca954dd1d9",
+      "timestamp": "2025-12-14T07:37:24.429Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "c610fa82-c9be-401c-acdb-bd48299bf8d6",
+      "timestamp": "2025-12-14T06:42:03.048Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "a4610219-e217-49cd-9563-bf20ad10ea55",
+      "timestamp": "2025-12-14T06:37:31.596Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5dd894b2-793a-4386-a1b0-b9addaf6d004",
+      "timestamp": "2025-12-14T06:36:34.253Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "e8f7042c-baba-4467-ba6f-5c35fcf6db64",
+      "timestamp": "2025-12-14T06:36:01.886Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "c0911002-28bb-4707-b91a-1adcd44721ef",
+      "timestamp": "2025-12-14T06:36:00.259Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "cc46f2bf-da22-4c63-9fb8-cf0b51d570ee",
+      "timestamp": "2025-12-14T06:34:40.522Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "3e5a2a59-fa1a-47ec-becd-7c95893933d8",
+      "timestamp": "2025-12-14T06:34:38.916Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "ff7be2d3-af57-4968-b0e2-2d4225f69e9e",
+      "timestamp": "2025-12-14T06:34:33.836Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5a40fc36-a6a2-4939-a9bf-8660f2ef02e7",
+      "timestamp": "2025-12-14T06:34:31.622Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "34035d8f-396a-484c-b526-b0717ed74f61",
+      "timestamp": "2025-12-14T06:31:54.011Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "dc6133f2-e657-4c24-b1a6-e634768969e5",
+      "timestamp": "2025-12-14T06:26:11.884Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "7e41060c-424e-4f14-874b-a876fb8d25ad",
+      "timestamp": "2025-12-14T06:23:47.259Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "f36a692a-a160-4139-a22a-58d8358e2ad5",
+      "timestamp": "2025-12-14T06:23:31.407Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "3e7f720c-d5b3-4f9e-b6cc-a8589d8edb96",
+      "timestamp": "2025-12-14T06:23:29.683Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "94178144-5355-4cd5-ba2f-d6c61b8bce96",
+      "timestamp": "2025-12-14T06:22:45.598Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "09619a01-fa71-4bcd-8604-f9f5968b10f7",
+      "timestamp": "2025-12-14T06:21:41.052Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "97247869-1220-44f0-b71f-b11b30035d02",
+      "timestamp": "2025-12-14T06:21:39.366Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "37e36352-fbbc-4922-a214-e26bf011b845",
+      "timestamp": "2025-12-14T06:21:32.813Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "e0cce666-d6fa-45f4-87fc-48554e8412aa",
+      "timestamp": "2025-12-14T06:02:28.795Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "447daec7-6acb-4ecc-93f4-bc114409e595",
+      "timestamp": "2025-12-14T06:02:25.841Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "3ee43718-1bf1-447f-a787-d256ef6f78e3",
+      "timestamp": "2025-12-14T06:01:56.675Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "8ac230b9-5ce7-484f-a38e-f6c9a83335b5",
+      "timestamp": "2025-12-14T05:50:47.487Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "e100e93d-d79c-491b-adb2-449719885f03",
+      "timestamp": "2025-12-14T05:40:21.700Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "97bc402e-356f-415b-8204-2957dff5e3de",
+      "timestamp": "2025-12-14T05:40:09.719Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "c6555480-bc84-4c29-9bdf-eeebcfb65442",
+      "timestamp": "2025-12-14T05:40:00.573Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5318183c-fe58-47dd-a173-87bb2ffc9586",
+      "timestamp": "2025-12-14T05:39:56.053Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "251cfc40-2995-405b-bce9-d9a5eab1b22f",
+      "timestamp": "2025-12-14T05:39:54.503Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "078fc427-43c1-4ddd-b675-583ef6300f39",
+      "timestamp": "2025-12-14T05:39:45.613Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "3e8c98b2-dd9d-4ebe-a2fa-2dd152092310",
+      "timestamp": "2025-12-14T05:33:00.375Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "6cd7b4a1-3c86-4eb2-bbde-74fbc620a4b7",
+      "timestamp": "2025-12-14T05:32:56.873Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "8e3a6be9-bb2f-454f-b822-b6fde4815ea1",
+      "timestamp": "2025-12-14T05:07:45.003Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "c552177f-7f71-4777-a857-b51290924aa2",
+      "timestamp": "2025-12-14T04:53:06.964Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "6b514509-af95-4c6a-a2f1-ed91678ab35b",
+      "timestamp": "2025-12-14T04:50:04.296Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "66fcd230-4632-4fb1-a834-8727e1989010",
+      "timestamp": "2025-12-14T04:48:42.918Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "2bca66ca-1c3f-4f33-bd5d-04e72a79ae61",
+      "timestamp": "2025-12-14T04:48:27.773Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "73404213-2359-4a74-80da-5c08c122e17f",
+      "timestamp": "2025-12-14T04:48:25.863Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "85a06e2d-be8d-4eae-ac7d-a18a91d27221",
+      "timestamp": "2025-12-14T04:48:16.227Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "00f48d29-ed85-432f-87af-b418769c9d21",
+      "timestamp": "2025-12-14T04:43:34.124Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "fd42942e-947a-4a22-a2fb-273213e9b7c0",
+      "timestamp": "2025-12-13T22:11:58.419Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "ddee12f5-8c13-442d-a86b-e79271edaea7",
+      "timestamp": "2025-12-13T22:11:56.933Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "2768f9eb-8af8-4cc6-b3b0-b172a2c89940",
+      "timestamp": "2025-12-13T22:11:52.011Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "f8aaa969-f197-4afc-ba96-3f61c09c2745",
+      "timestamp": "2025-12-13T22:11:47.965Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "f3a1c2ca-0e0c-4d3c-a4e6-0748984a65e9",
+      "timestamp": "2025-12-13T22:09:09.563Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "b1cd3864-0fc8-48a8-a8a2-570656a40689",
+      "timestamp": "2025-12-13T19:57:57.820Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5dc89014-d08f-4ab5-9fef-f76e2d1ba4d2",
+      "timestamp": "2025-12-13T19:29:20.547Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "50f71d86-36c9-4625-b8fb-91532cc41caf",
+      "timestamp": "2025-12-13T19:29:14.983Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "dc2234f4-5941-454b-8fb9-32be01318fe9",
+      "timestamp": "2025-12-13T19:04:01.989Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "7b2dc813-e9dd-4242-96e9-2b8cd0a676d0",
+      "timestamp": "2025-12-13T19:03:34.806Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "c8e230a8-6a73-4921-bb11-41201179df26",
+      "timestamp": "2025-12-13T16:51:46.106Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "9e7bb8f2-c881-47d1-93f0-816b4d34cd8e",
+      "timestamp": "2025-12-13T16:40:21.725Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "bd2f5c3f-1b85-42ed-98dc-bd562610136a",
+      "timestamp": "2025-12-13T16:40:20.317Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "8a997f06-9ea8-4c20-a920-1e193c3ffa5b",
+      "timestamp": "2025-12-13T16:40:17.491Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "0c3332ce-bf65-46b2-938c-f8f0d6a3bf59",
+      "timestamp": "2025-12-13T16:40:13.078Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "9c9ac503-5134-4f9a-85e6-f2a5be28e3be",
+      "timestamp": "2025-12-13T16:37:49.684Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "78c4443c-0ee7-4498-b6c7-1a7aa7febffb",
+      "timestamp": "2025-12-13T16:37:40.276Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5400eb71-00b3-4846-a778-e7df933ee078",
+      "timestamp": "2025-12-13T16:02:25.737Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "45ebf6a5-0920-4476-8c95-7b7ea1637a30",
+      "timestamp": "2025-12-13T16:02:24.084Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "a04d5562-b5e5-4bdb-a83e-5815626810d4",
+      "timestamp": "2025-12-13T16:02:17.762Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "023cbb71-383d-4b15-8c82-ed665c5eb907",
+      "timestamp": "2025-12-13T16:02:15.071Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "64ade4c5-56ac-4f8b-b6dd-817affc462e0",
+      "timestamp": "2025-12-13T16:00:15.087Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "a16a2d36-d729-4df6-a5ae-6b165c56993c",
+      "timestamp": "2025-12-13T15:59:56.611Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "bf2fbc81-e458-4ff1-b720-9c6bbe787132",
+      "timestamp": "2025-12-13T15:59:27.126Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "7897b8e8-c10d-4d4a-9fcc-4df24f1788aa",
+      "timestamp": "2025-12-13T15:31:19.738Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "fa33ee0d-6173-49a6-8977-3c54c339b835",
+      "timestamp": "2025-12-13T15:24:03.968Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5d468e01-7e84-490f-9c8b-4b797c486a1b",
+      "timestamp": "2025-12-13T15:24:01.668Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "c76b71c6-aeb3-4efd-a105-7f30b41e7d16",
+      "timestamp": "2025-12-13T15:20:59.440Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "f67584de-98c2-4cee-a2ca-c937bff159bb",
+      "timestamp": "2025-12-13T15:16:50.496Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "3d580540-8b32-4298-8581-a311b23316f9",
+      "timestamp": "2025-12-13T15:14:49.917Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "4fb25db3-985b-4942-83b9-a2b8942ab801",
+      "timestamp": "2025-12-13T15:11:16.456Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "6a207945-be5a-481f-a2a6-b29ea61fad7d",
+      "timestamp": "2025-12-13T15:09:41.208Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "4e15bd81-0686-4233-85a2-22bf98eb3fd3",
+      "timestamp": "2025-12-13T15:09:34.683Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "6eea615d-d0b1-4cb8-bb2e-b8da008137ef",
+      "timestamp": "2025-12-13T15:05:53.447Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5be5cff8-35f9-4b7b-9337-5f056b4a10e4",
+      "timestamp": "2025-12-13T15:05:53.277Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "ab0bb070-9200-44cc-9f72-e6c18fa57a6b",
+      "timestamp": "2025-12-13T15:05:51.807Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "2b763672-5e71-4603-b442-73212ff09503",
+      "timestamp": "2025-12-13T15:05:51.434Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "f6eb0371-1fea-4774-8833-b0da691031a3",
+      "timestamp": "2025-12-13T15:03:26.289Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "1bd31077-f538-4d50-95cd-9b01b13f7500",
+      "timestamp": "2025-12-13T15:03:23.770Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "9ea9f30e-27b7-4d64-aa0b-ef25fac414f3",
+      "timestamp": "2025-12-13T14:58:39.481Z",
+      "level": "info",
+      "message": "Browser closed",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "46738296-f547-46d2-a789-41979cde2bc2",
+      "timestamp": "2025-12-13T14:58:39.467Z",
+      "level": "success",
+      "message": "Task completed: Bot Detection Test",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "970990e9-a9e3-4d00-b937-2af1c53bcb99",
+      "timestamp": "2025-12-13T14:58:39.467Z",
+      "level": "info",
+      "message": "Bot Detection Results: 3/3 tests passed",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "ebede87d-502b-48e1-bcc5-503ba249c791",
+      "timestamp": "2025-12-13T14:58:39.467Z",
+      "level": "success",
+      "message": "Passed: CreepJS Fingerprint",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "86a5c0a4-bbc7-40b2-a83f-f4a4d12f9e01",
+      "timestamp": "2025-12-13T14:58:33.750Z",
+      "level": "action",
+      "message": "Navigated to: https://abrahamjuliot.github.io/creepjs/",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "a111b7b4-de43-4971-9fb3-f0d16183469c",
+      "timestamp": "2025-12-13T14:58:33.639Z",
+      "level": "action",
+      "message": "Testing: CreepJS Fingerprint",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "a0119234-5d1c-42ee-ae01-53614ae284fc",
+      "timestamp": "2025-12-13T14:58:33.639Z",
+      "level": "success",
+      "message": "Passed: Are You Headless",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "bab6f2f8-2a12-48c5-9cb5-df057f77034e",
+      "timestamp": "2025-12-13T14:58:28.972Z",
+      "level": "warning",
+      "message": "Console error: WebSocket connection to 'wss://arh.antoinevastel.com/bots/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 200",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "ed2d20bc-bfd2-453f-8351-21a53e2e3942",
+      "timestamp": "2025-12-13T14:58:28.870Z",
+      "level": "warning",
+      "message": "Console error: Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "57123315-b103-49bb-b41c-fd832293a14c",
+      "timestamp": "2025-12-13T14:58:28.870Z",
+      "level": "warning",
+      "message": "Request failed: https://ant.antoinevastel.com/analytics.js",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "f0b608cf-a0ef-410b-852d-cd7ba66db061",
+      "timestamp": "2025-12-13T14:58:28.198Z",
+      "level": "action",
+      "message": "Navigated to: https://arh.antoinevastel.com/bots/areyouheadless",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "1dc21c41-cd16-4a5e-a71c-bd0b09926e80",
+      "timestamp": "2025-12-13T14:58:27.827Z",
+      "level": "action",
+      "message": "Testing: Are You Headless",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "6ca20830-37e0-47d2-8f81-0d76ad6332d0",
+      "timestamp": "2025-12-13T14:58:27.827Z",
+      "level": "success",
+      "message": "Passed: Sannysoft Bot Test",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "bcfc2d63-403f-4e16-9212-f0bb79f4ceae",
+      "timestamp": "2025-12-13T14:58:24.097Z",
+      "level": "warning",
+      "message": "Console error: Failed to load resource: the server responded with a status of 404 ()",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "ca1f4514-ebb2-4aec-af65-c850aae3aaff",
+      "timestamp": "2025-12-13T14:58:23.119Z",
+      "level": "warning",
+      "message": "Request failed: https://intoli.com/nonexistent-image.png",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "8af29082-393e-4497-9f1a-90cf1c042636",
+      "timestamp": "2025-12-13T14:58:23.095Z",
+      "level": "warning",
+      "message": "Console error: WebSocket connection to 'wss://bot.sannysoft.com/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 404",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "511057f4-67cb-4d08-aa58-7cc15d94f053",
+      "timestamp": "2025-12-13T14:58:22.755Z",
+      "level": "action",
+      "message": "Navigated to: https://bot.sannysoft.com/",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "3c9ebf37-f578-40fd-be6f-a9525996c547",
+      "timestamp": "2025-12-13T14:58:22.583Z",
+      "level": "action",
+      "message": "Testing: Sannysoft Bot Test",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "693d8794-035a-437c-9d6d-0b75575d74b8",
+      "timestamp": "2025-12-13T14:58:22.582Z",
+      "level": "info",
+      "message": "Live streaming started",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "b3c9673e-3226-4cb9-82c8-9008b7272963",
+      "timestamp": "2025-12-13T14:58:22.582Z",
+      "level": "success",
+      "message": "Browser launched successfully",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "231937e9-6788-482a-898a-c7707172a6a9",
+      "timestamp": "2025-12-13T14:58:20.915Z",
+      "level": "info",
+      "message": "Using Chrome at: /nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "73f2a37a-d307-4381-983c-d6e5a0a51290",
+      "timestamp": "2025-12-13T14:58:20.906Z",
+      "level": "info",
+      "message": "Launching browser...",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "bee30b5d-d31b-4c30-a749-398ed574ec30",
+      "timestamp": "2025-12-13T14:58:20.744Z",
+      "level": "info",
+      "message": "Starting task: Bot Detection Test",
+      "taskId": "2a4b3336-6e61-443b-ba75-dd42647e949c",
+      "metadata": {}
+    },
+    {
+      "id": "cc65ccc7-ace3-440d-ada6-e7b1d27ee7d7",
+      "timestamp": "2025-12-13T14:58:12.212Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "b347fa65-45f7-47a9-b2e9-6c30132bfb46",
+      "timestamp": "2025-12-13T14:56:44.552Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "861d30cf-5527-4541-9828-4aeeb9f5f199",
+      "timestamp": "2025-12-13T14:56:42.278Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "2c7f7b31-d9a7-43b2-88a5-4c26cd4455ce",
+      "timestamp": "2025-12-13T14:52:56.296Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "4f8e80bd-1221-4671-96e6-7a09611e609a",
+      "timestamp": "2025-12-13T14:30:10.187Z",
+      "level": "info",
+      "message": "Browser closed",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "3eef5c07-c6df-4efa-9f65-982a3b87d2fc",
+      "timestamp": "2025-12-13T14:30:10.170Z",
+      "level": "success",
+      "message": "Task completed: Performance Audit",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "a5251da7-6e30-4c19-9c02-be115a3cc666",
+      "timestamp": "2025-12-13T14:30:10.040Z",
+      "level": "success",
+      "message": "Performance Rating: Fast",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "af8ab914-5c87-4be7-8235-b30a96c81217",
+      "timestamp": "2025-12-13T14:30:10.040Z",
+      "level": "info",
+      "message": "JS Heap Size: 1MB",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "610922ad-65fc-45ae-a0ba-a7054aa22fb4",
+      "timestamp": "2025-12-13T14:30:10.040Z",
+      "level": "info",
+      "message": "Resources Loaded: 1",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "0c641c92-2920-4b0e-a969-d8e36b7b8730",
+      "timestamp": "2025-12-13T14:30:10.040Z",
+      "level": "info",
+      "message": "First Contentful Paint: 248ms",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "6781e9ec-6c1b-494e-b156-df6792ba5009",
+      "timestamp": "2025-12-13T14:30:10.040Z",
+      "level": "info",
+      "message": "First Paint: 248ms",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "335048a5-eed0-426c-8be9-69a4bb3b56b5",
+      "timestamp": "2025-12-13T14:30:10.039Z",
+      "level": "info",
+      "message": "DOM Content Loaded: 235ms",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "4f67af21-97bf-45ca-a3bf-a8f6b0aafe48",
+      "timestamp": "2025-12-13T14:30:10.039Z",
+      "level": "info",
+      "message": "Total Load Time: 1000ms",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "0913c089-c784-4161-ad8d-d11163b473a2",
+      "timestamp": "2025-12-13T14:30:09.390Z",
+      "level": "warning",
+      "message": "Console error: Failed to load resource: the server responded with a status of 404 ()",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "11e7c58a-b4d7-4ea2-93cf-95d8666d1908",
+      "timestamp": "2025-12-13T14:30:09.260Z",
+      "level": "action",
+      "message": "Navigated to: https://example.com/",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "c0918ff9-f42d-4390-8028-94516bf389f0",
+      "timestamp": "2025-12-13T14:30:09.036Z",
+      "level": "action",
+      "message": "Performance Audit starting on: https://example.com",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "a153f9b1-73c7-4b46-92c0-371f2811b01a",
+      "timestamp": "2025-12-13T14:30:09.036Z",
+      "level": "info",
+      "message": "Live streaming started",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "93e6d3e1-52cc-40f7-810b-24265b0a359c",
+      "timestamp": "2025-12-13T14:30:09.035Z",
+      "level": "success",
+      "message": "Browser launched successfully",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "4c305dc8-4a45-47de-8192-3c3d8297a0f9",
+      "timestamp": "2025-12-13T14:30:08.006Z",
+      "level": "info",
+      "message": "Using Chrome at: /nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "cd8e3e95-d4b1-4b3d-9183-827c33ee4824",
+      "timestamp": "2025-12-13T14:30:08.000Z",
+      "level": "info",
+      "message": "Launching browser...",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "ee31d687-d801-4d5b-8b94-d0635c41a5df",
+      "timestamp": "2025-12-13T14:30:08.000Z",
+      "level": "info",
+      "message": "Starting task: Performance Audit",
+      "taskId": "bc7f03ae-b076-452a-b93e-1de13f8c120a",
+      "metadata": {}
+    },
+    {
+      "id": "2f2c6edd-be51-45ff-9741-624276d1e818",
+      "timestamp": "2025-12-13T14:29:59.081Z",
+      "level": "info",
+      "message": "Browser closed",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "a05564d6-6171-49aa-b27d-a736db9d17bd",
+      "timestamp": "2025-12-13T14:29:59.073Z",
+      "level": "success",
+      "message": "Task completed: Bot Detection Test",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "b5f75d04-0b1f-40d3-9a6a-937d38db0a42",
+      "timestamp": "2025-12-13T14:29:59.072Z",
+      "level": "info",
+      "message": "Bot Detection Results: 3/3 tests passed",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "7e9476fc-51fa-4276-8b20-76af78a55013",
+      "timestamp": "2025-12-13T14:29:59.072Z",
+      "level": "success",
+      "message": "Passed: CreepJS Fingerprint",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "39de279e-c6fe-4147-833b-31a8479d4413",
+      "timestamp": "2025-12-13T14:29:53.349Z",
+      "level": "action",
+      "message": "Navigated to: https://abrahamjuliot.github.io/creepjs/",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "a03d2b83-f145-4bb0-a084-ea2333946891",
+      "timestamp": "2025-12-13T14:29:53.270Z",
+      "level": "action",
+      "message": "Testing: CreepJS Fingerprint",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "21823812-fbf2-4b6d-8eae-5459e10a5cf9",
+      "timestamp": "2025-12-13T14:29:53.270Z",
+      "level": "success",
+      "message": "Passed: Are You Headless",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "5783b624-ec41-4d3e-804d-103f93a23d68",
+      "timestamp": "2025-12-13T14:29:48.274Z",
+      "level": "warning",
+      "message": "Console error: WebSocket connection to 'wss://arh.antoinevastel.com/bots/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 200",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "476a6b97-0326-4086-9e8e-463a52026b7c",
+      "timestamp": "2025-12-13T14:29:48.270Z",
+      "level": "warning",
+      "message": "Console error: Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "f84f1925-2a3e-44bf-b6e8-3dfa9337d364",
+      "timestamp": "2025-12-13T14:29:48.268Z",
+      "level": "warning",
+      "message": "Request failed: https://ant.antoinevastel.com/analytics.js",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "c26989a9-c7a2-4569-800c-d275e8258289",
+      "timestamp": "2025-12-13T14:29:47.461Z",
+      "level": "action",
+      "message": "Navigated to: https://arh.antoinevastel.com/bots/areyouheadless",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "9ff3b119-f8b0-4ac7-a3de-171e941f3fa4",
+      "timestamp": "2025-12-13T14:29:47.039Z",
+      "level": "action",
+      "message": "Testing: Are You Headless",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "5cf261e7-8048-4b59-a2bb-c19865a661d7",
+      "timestamp": "2025-12-13T14:29:47.038Z",
+      "level": "success",
+      "message": "Passed: Sannysoft Bot Test",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "df339c4d-9e68-4d5e-b07b-0cf14ef65e87",
+      "timestamp": "2025-12-13T14:29:43.271Z",
+      "level": "warning",
+      "message": "Console error: Failed to load resource: the server responded with a status of 404 ()",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "339acbf5-c328-4479-9c49-6d682fa30025",
+      "timestamp": "2025-12-13T14:29:42.208Z",
+      "level": "warning",
+      "message": "Request failed: https://intoli.com/nonexistent-image.png",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "302e64fc-d270-43fd-ab4b-6a17a843b5c9",
+      "timestamp": "2025-12-13T14:29:42.182Z",
+      "level": "warning",
+      "message": "Console error: WebSocket connection to 'wss://bot.sannysoft.com/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 404",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "6d5e2ac4-5a1d-44e2-bb98-41b389169be8",
+      "timestamp": "2025-12-13T14:29:41.804Z",
+      "level": "action",
+      "message": "Navigated to: https://bot.sannysoft.com/",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "bd86136d-3eb6-4cea-a69e-dcf22387b980",
+      "timestamp": "2025-12-13T14:29:41.659Z",
+      "level": "action",
+      "message": "Testing: Sannysoft Bot Test",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "d1ae17f7-5202-4b2d-8c57-3d4c33e392a4",
+      "timestamp": "2025-12-13T14:29:41.659Z",
+      "level": "info",
+      "message": "Live streaming started",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "0c6921e5-8274-41b0-bab4-e5ae99de38d5",
+      "timestamp": "2025-12-13T14:29:41.659Z",
+      "level": "success",
+      "message": "Browser launched successfully",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "4f916517-5037-417f-997a-2e9704250617",
+      "timestamp": "2025-12-13T14:29:40.610Z",
+      "level": "info",
+      "message": "Using Chrome at: /nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "f39e1988-bcf1-440e-8704-d8a1a773e790",
+      "timestamp": "2025-12-13T14:29:40.604Z",
+      "level": "info",
+      "message": "Launching browser...",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "5951118c-978e-4260-b5ae-0a4362694c2d",
+      "timestamp": "2025-12-13T14:29:40.604Z",
+      "level": "info",
+      "message": "Starting task: Bot Detection Test",
+      "taskId": "721bda53-17b6-43c7-b950-4be0df3e3038",
+      "metadata": {}
+    },
+    {
+      "id": "cda02c37-ea15-43a9-ba5f-179d4d88b0aa",
+      "timestamp": "2025-12-13T14:28:49.491Z",
+      "level": "info",
+      "message": "Browser closed",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "d3dc64c5-b602-4369-8247-d9edb996c923",
+      "timestamp": "2025-12-13T14:28:49.459Z",
+      "level": "success",
+      "message": "Task completed: Bot Detection Test",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "d2d0d193-9a56-4d85-8912-6a26cb50bdd1",
+      "timestamp": "2025-12-13T14:28:49.459Z",
+      "level": "info",
+      "message": "Bot Detection Results: 3/3 tests passed",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "9aabb2bd-aa94-4204-9d20-34973134d481",
+      "timestamp": "2025-12-13T14:28:49.454Z",
+      "level": "success",
+      "message": "Passed: CreepJS Fingerprint",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "cd972ac1-aa0b-4426-b310-a6a330b27608",
+      "timestamp": "2025-12-13T14:28:43.807Z",
+      "level": "action",
+      "message": "Navigated to: https://abrahamjuliot.github.io/creepjs/",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "1098fb27-f6eb-47eb-b083-dcaa08ac9ee5",
+      "timestamp": "2025-12-13T14:28:43.745Z",
+      "level": "action",
+      "message": "Testing: CreepJS Fingerprint",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "7a23fcac-1193-4bd0-a4db-f55ed24f8ebc",
+      "timestamp": "2025-12-13T14:28:43.745Z",
+      "level": "success",
+      "message": "Passed: Are You Headless",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "ba372805-86dd-4b47-92de-f2a54c2ac406",
+      "timestamp": "2025-12-13T14:28:38.750Z",
+      "level": "warning",
+      "message": "Console error: WebSocket connection to 'wss://arh.antoinevastel.com/bots/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 200",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "472b5904-5905-4fb2-a346-5fb1c1cc1a41",
+      "timestamp": "2025-12-13T14:28:38.672Z",
+      "level": "warning",
+      "message": "Console error: Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "d8d2ffbe-8cc7-482a-beb0-82dd274a01f3",
+      "timestamp": "2025-12-13T14:28:38.671Z",
+      "level": "warning",
+      "message": "Request failed: https://ant.antoinevastel.com/analytics.js",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "12915810-0982-440d-871d-817064f0daf2",
+      "timestamp": "2025-12-13T14:28:37.998Z",
+      "level": "action",
+      "message": "Navigated to: https://arh.antoinevastel.com/bots/areyouheadless",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "03b3126c-d1a2-47b0-bfe1-e8cb0beffd1b",
+      "timestamp": "2025-12-13T14:28:37.614Z",
+      "level": "action",
+      "message": "Testing: Are You Headless",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "b9f19363-00c3-43d6-8e12-7a02c182f731",
+      "timestamp": "2025-12-13T14:28:37.614Z",
+      "level": "success",
+      "message": "Passed: Sannysoft Bot Test",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "53d0f21f-572f-4fae-b583-b3e5b1821c95",
+      "timestamp": "2025-12-13T14:28:33.929Z",
+      "level": "warning",
+      "message": "Console error: Failed to load resource: the server responded with a status of 404 ()",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "650b4fae-fb6c-46aa-a214-c561f4a8ea1b",
+      "timestamp": "2025-12-13T14:28:32.912Z",
+      "level": "warning",
+      "message": "Request failed: https://intoli.com/nonexistent-image.png",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "afc9c314-e5ae-4c5f-9a7a-6f10d7bf5b5f",
+      "timestamp": "2025-12-13T14:28:32.900Z",
+      "level": "warning",
+      "message": "Console error: WebSocket connection to 'wss://bot.sannysoft.com/itsgonnafail' failed: Error during WebSocket handshake: Unexpected response code: 404",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "213db3af-1d81-4da9-8c87-27fb1b27feec",
+      "timestamp": "2025-12-13T14:28:32.443Z",
+      "level": "action",
+      "message": "Navigated to: https://bot.sannysoft.com/",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "9a32cdf5-c39f-42fa-8035-3b44505a9e77",
+      "timestamp": "2025-12-13T14:28:32.324Z",
+      "level": "action",
+      "message": "Testing: Sannysoft Bot Test",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "431cb967-b920-42d9-b4c3-767e9ac7ae5c",
+      "timestamp": "2025-12-13T14:28:32.324Z",
+      "level": "info",
+      "message": "Live streaming started",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "70ba3151-7b78-4702-9577-c26ab0ffaf71",
+      "timestamp": "2025-12-13T14:28:32.323Z",
+      "level": "success",
+      "message": "Browser launched successfully",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "fd9e83ea-608b-44a0-8297-08dec3c124af",
+      "timestamp": "2025-12-13T14:28:31.202Z",
+      "level": "info",
+      "message": "Using Chrome at: /nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "421f355a-1bfb-4979-87a6-bf29adba4cd7",
+      "timestamp": "2025-12-13T14:28:31.194Z",
+      "level": "info",
+      "message": "Launching browser...",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "5488da70-d35b-40a4-add7-0297f4b17a87",
+      "timestamp": "2025-12-13T14:28:31.060Z",
+      "level": "info",
+      "message": "Starting task: Bot Detection Test",
+      "taskId": "88bd6069-3da0-4d0d-87ab-e6542aecd9a5",
+      "metadata": {}
+    },
+    {
+      "id": "86912787-665b-4241-9d77-03c290a79ac0",
+      "timestamp": "2025-12-13T14:28:22.742Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "2529dcdc-b02e-4bf0-904d-0bfc2ebffde5",
+      "timestamp": "2025-12-13T14:28:20.248Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "5f5815e5-d27d-469a-a67b-283ec653ba50",
+      "timestamp": "2025-12-13T14:26:08.000Z",
+      "level": "error",
+      "message": "Error: connect ECONNREFUSED 127.0.0.1:42385",
+      "taskId": "0df20239-422d-412a-9a00-60a4fbce9ce1",
+      "metadata": {
+        "stack": "Error: connect ECONNREFUSED 127.0.0.1:42385\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+      }
+    },
+    {
+      "id": "fa6a3562-a598-4b6c-aa32-2ad236b7c825",
+      "timestamp": "2025-12-13T14:25:42.832Z",
+      "level": "info",
+      "message": "Using Chrome at: /nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium",
+      "taskId": "0df20239-422d-412a-9a00-60a4fbce9ce1",
+      "metadata": {}
+    },
+    {
+      "id": "e3c2cd0a-d387-4ebe-a20c-bc42fb308164",
+      "timestamp": "2025-12-13T14:25:42.825Z",
+      "level": "info",
+      "message": "Launching browser...",
+      "taskId": "0df20239-422d-412a-9a00-60a4fbce9ce1",
+      "metadata": {}
+    },
+    {
+      "id": "f6722b74-cc10-4ae8-9b84-c762f0632b0b",
+      "timestamp": "2025-12-13T14:25:42.674Z",
+      "level": "info",
+      "message": "Starting task: Bot Detection Test",
+      "taskId": "0df20239-422d-412a-9a00-60a4fbce9ce1",
+      "metadata": {}
+    },
+    {
+      "id": "28783e20-d86c-412f-aa95-f88937e94cb4",
+      "timestamp": "2025-12-13T14:25:25.320Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "6ae3ac75-ecba-4209-bf6c-9ed1d66a5282",
+      "timestamp": "2025-12-13T14:25:22.429Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "9ae0c9f8-69f9-4809-b54e-31fa31ff59fb",
+      "timestamp": "2025-12-13T14:23:09.626Z",
+      "level": "error",
+      "message": "Error: connect ECONNREFUSED 127.0.0.1:41741",
+      "taskId": "da3b7ce2-6a4b-4bf5-ad8f-c2b388e5bee7",
+      "metadata": {
+        "stack": "Error: connect ECONNREFUSED 127.0.0.1:41741\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)"
+      }
+    },
+    {
+      "id": "1984552b-2e9d-4446-956f-d95a20d51608",
+      "timestamp": "2025-12-13T14:22:44.428Z",
+      "level": "info",
+      "message": "Using Chrome at: /nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium",
+      "taskId": "da3b7ce2-6a4b-4bf5-ad8f-c2b388e5bee7",
+      "metadata": {}
+    },
+    {
+      "id": "24bd0763-9ed1-4f21-b0ea-3b904d436027",
+      "timestamp": "2025-12-13T14:22:44.413Z",
+      "level": "info",
+      "message": "Launching browser...",
+      "taskId": "da3b7ce2-6a4b-4bf5-ad8f-c2b388e5bee7",
+      "metadata": {}
+    },
+    {
+      "id": "a76cf3b6-0d92-4fb0-a8bd-fb928a46fc44",
+      "timestamp": "2025-12-13T14:22:44.290Z",
+      "level": "info",
+      "message": "Starting task: Custom Navigation",
+      "taskId": "da3b7ce2-6a4b-4bf5-ad8f-c2b388e5bee7",
+      "metadata": {}
+    },
+    {
+      "id": "466cfad7-239b-4877-ae68-3e64be2b7aa2",
+      "timestamp": "2025-12-13T14:19:47.641Z",
+      "level": "info",
+      "message": "Dashboard client disconnected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "a78d6116-9936-47a3-b990-0dd0e3e9b99b",
+      "timestamp": "2025-12-13T14:19:46.338Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "91db1046-5c48-45b7-a178-866dab3e5046",
+      "timestamp": "2025-12-13T14:19:42.559Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "700e9912-5616-49d7-a1b6-3b8d1d6651b0",
+      "timestamp": "2025-12-13T14:19:40.693Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "84f3f84e-a9b7-4569-abd8-7b4f6e516321",
+      "timestamp": "2025-12-13T14:14:59.012Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "54b069a6-47c9-4e04-95e7-b802b6f2f7d0",
+      "timestamp": "2025-12-13T14:14:54.811Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "efb99fd7-627e-48f0-a2fd-f44f7767a610",
+      "timestamp": "2025-12-13T13:57:08.962Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "d9069446-eaf3-4822-9bba-a8b555288d12",
+      "timestamp": "2025-12-13T13:57:07.101Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "cb4c350f-bbe8-45b8-b9ad-aa3112a04763",
+      "timestamp": "2025-12-13T13:55:51.690Z",
+      "level": "info",
+      "message": "Dashboard client connected",
+      "taskId": null,
+      "metadata": {}
+    },
+    {
+      "id": "0a870c1a-8126-47f2-b6e8-b2fefc798384",
+      "timestamp": "2025-12-13T13:55:48.546Z",
+      "level": "success",
+      "message": "Server started on port 5000",
+      "taskId": null,
+      "metadata": {}
+    }
+  ],
+  "faucet": [
+    {
+      "id": "eb30a893-84db-4434-97ca-9977f491a1a5",
+      "timestamp": "2025-12-14T09:50:31.983Z",
+      "level": "info",
+      "message": "Connection type set to: proxy",
+      "metadata": {}
+    },
+    {
+      "id": "964dfc3a-0e80-4a1d-bf81-0aae006c019a",
+      "timestamp": "2025-12-14T07:55:48.681Z",
+      "level": "info",
+      "message": "[Instance 2] Stopping claim session...",
+      "metadata": {
+        "instanceId": "instance_2"
+      }
+    },
+    {
+      "id": "9ff828ed-ca9b-4ae8-b45e-ac54596c3561",
+      "timestamp": "2025-12-14T07:55:48.681Z",
+      "level": "info",
+      "message": "[Instance 1] Stopping claim session...",
+      "metadata": {
+        "instanceId": "instance_1"
+      }
+    },
+    {
+      "id": "e736d1bc-076c-4e47-895c-32b5da99ca5f",
+      "timestamp": "2025-12-14T07:38:35.116Z",
+      "level": "info",
+      "message": "[Instance 1] Stopping claim session...",
+      "metadata": {
+        "instanceId": "instance_1"
+      }
+    },
+    {
+      "id": "c7810a76-654c-433e-8e43-489deefa22b6",
+      "timestamp": "2025-12-14T07:38:24.447Z",
+      "level": "info",
+      "message": "[Instance 1] Stopping claim session...",
+      "metadata": {
+        "instanceId": "instance_1"
+      }
+    },
+    {
+      "id": "c4ec7808-4ff1-4342-9561-8083cfc78590",
+      "timestamp": "2025-12-14T06:39:04.097Z",
+      "level": "info",
+      "message": "[Instance 2] Stopping claim session...",
+      "metadata": {
+        "instanceId": "instance_2"
+      }
+    },
+    {
+      "id": "b10f1c9c-7dbf-49e0-94e5-feaa9ca59498",
+      "timestamp": "2025-12-14T06:39:04.097Z",
+      "level": "info",
+      "message": "[Instance 1] Stopping claim session...",
+      "metadata": {
+        "instanceId": "instance_1"
+      }
+    }
+  ],
+  "nano": []
+}

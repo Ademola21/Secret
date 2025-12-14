@@ -1,0 +1,10 @@
+{
+  "faucetConfig": {
+    "connectionType": "direct",
+    "proxyUrl": null,
+    "bankWalletName": null,
+    "autoRestart": true
+  },
+  "gpuWorkerUrl": null,
+  "automationSettings": {}
+}
